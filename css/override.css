@@ -7,10 +7,16 @@
 */
 
 body{
-    background-image: url("../img/bg-main.jpg");
-}   
+
+ padding-top: 60px; 
+}  
+ 
 .span12, .container{
     width: 940px;
+} 
+
+a {
+  color: black;
 }
 
 p {
@@ -21,6 +27,14 @@ p {
     border: 1px solid #ECEDEE;
     padding: 25px;
 
+} 
+
+.partner {
+  padding-top: 60px;    
+}
+
+.navbar .nav > li > a {
+  color: #F25C19;
 }
 
 .main-nav{
@@ -34,20 +48,14 @@ p {
     margin-top: 8px;
 }
 
-.logo{
-    height: 90px;
-}
-
-.logo-title{
-    font-size:30px;
-}
-
 .slogan{
-    color: #999;	
+    /*color: #999; */
+          
 }
 
 .links a{
     margin-right: 5px;
+
 }
 
 /* vertical-menu - the side bar*/
@@ -209,9 +217,7 @@ p {
     width: 155px;
 }
 
-.blog-intro {
-    margin-left: 0;
-}
+
 
 .entry img{
     float:left;
@@ -231,17 +237,6 @@ p {
     visibility: hidden;
 }
 
-.inner-page-title {
-    background: url("../img/bg-slider.png") repeat scroll left top transparent;
-    height: 155px;
-    left: 0;
-    overflow: hidden;
-    padding: 65px 25px 0;
-    position: absolute;
-    top: 0;
-    width: 170px;
-    color: #FFF;
-}
 
 .fixed {
     min-height: 1%;
